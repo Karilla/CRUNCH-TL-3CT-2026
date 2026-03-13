@@ -1,4 +1,4 @@
-# tl RedLine - Coordination 3CT
+# tl - AGENTS DE CONTRÔLE
 
 **RedLine** est un écosystème conçu pour les **tl** (Innovation Crunch Time 2026). Son but : optimiser le déploiement des équipes terrain pour atteindre l'objectif de 0.7% de couverture réseau.
 
