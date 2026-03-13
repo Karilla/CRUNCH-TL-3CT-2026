@@ -1,12 +1,20 @@
-# CRUNCH-TL-3CT-2026
+# tl RedLine - Coordination 3CT
 
-## Gestion parcours : Application Web
-**Entrées**
- - Horaires du personnel 3CT
- - Données d'affluences selon les lignes / heure ou jour
- - Chaque jour : Rapport des zones contrôlées par les 3CT via l'App
- - Horaire et plan des transports TL
+**RedLine** est un écosystème conçu pour les **tl** (Innovation Crunch Time 2026). Son but : optimiser le déploiement des équipes terrain pour atteindre l'objectif de 0.7% de couverture réseau.
 
-**Sorties**
- - Proposition de lignes customisées à contrôler selons priorités
- - Possibilité de placer les effectifs 3CT sur ces lignes, choix du gestionnaire pour qui va ou
+## Composants
+* **RedLine Dispatch (Web)** : Pilotage centralisé, planification par IA et gestion RH.
+* **RedLine Companion (Mobile)** : Outil de terrain pour l'agent (consultation planning et alertes).
+
+## Points Forts
+* **IA de Planification** : Itinéraires basés sur l'affluence, l'aléatoire et la LTR (pauses garanties).
+* **Gestion RH Directe** : Interface de Drag & Drop pour équilibrer les équipes face aux absences.
+* **Design Métier** : Identité rouge sombre pour différencier cet outil de contrôle des applications bleues standards.
+
+## Démo rapide
+1.  **Équipes** : Corriger l'alerte d'absence (Équipe Bleue) par Drag & Drop.
+2.  **Planification** : Générer les tournées optimales via l'algorithme.
+3.  **Dispatch** : Assigner les équipes et notifier les smartphones en un clic.
+
+## Tech Stack
+React.js, Tailwind CSS, Lucide Icons.
