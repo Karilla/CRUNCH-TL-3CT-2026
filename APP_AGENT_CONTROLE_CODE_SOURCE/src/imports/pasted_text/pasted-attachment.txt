@@ -1,0 +1,175 @@
+1 — Conserver les alertes en haut de l’écran
+
+Les alertes actuelles doivent être conservées.
+
+Modification demandée :
+
+transformer l’alerte en pop-up plus visible
+
+plus grand
+
+mieux lisible
+
+design plus clair
+
+Objectif :
+
+attirer immédiatement l’attention des agents
+
+rendre l’alerte plus visible sans surcharger la page
+
+2 — Indicateur : couverture du réseau
+
+Remplacer l’indicateur actuel par :
+
+Barre de progression simple
+
+Titre :
+
+Couverture du réseau aujourd’hui
+
+Contenu :
+
+barre de progression horizontale
+
+pas de pourcentage affiché
+
+Exemple visuel :
+
+Couverture du réseau aujourd’hui
+
+██████████████░░░░░░░░░░
+
+Sous la barre :
+
+Zones restantes à couvrir
+
+L’objectif est une lecture visuelle immédiate de la progression de la journée.
+
+3 — Indicateur : adhésion à la planification
+
+Ajouter un nouvel indicateur :
+
+Adhésion à la planification
+
+Objectif :
+
+mesurer si les équipes respectent les zones et les plannings établis.
+
+Affichage :
+
+barre de progression horizontale.
+
+Important :
+
+ajouter une ligne rouge verticale au niveau de 20 %
+
+cette ligne représente la limite maximale acceptable de non-respect
+
+Exemple :
+
+Adhésion à la planification
+
+██████████████░░░░░░
+            │
+           20%
+
+Signification :
+
+si la progression dépasse la ligne rouge → trop d’écarts par rapport au planning
+
+si elle reste avant la ligne → planification respectée
+
+Cet indicateur doit être très lisible pour les responsables.
+
+4 — Directions de contrôle
+
+Ajouter un bloc :
+
+Directions recommandées
+
+Afficher 3 secteurs à privilégier pour continuer la couverture.
+
+Exemple :
+
+➡ Secteur Gare
+➡ Secteur Flon
+➡ Secteur Ouchy
+
+Ce bloc sert à orienter les équipes vers les zones à couvrir.
+
+5 — Visualisation des zones
+
+Ajouter un visuel simple :
+
+Photo ou image des zones à couvrir / couvertes
+
+Important :
+
+pas de carte interactive
+
+simple image ou visuel statique
+
+Objectif :
+
+donner une lecture rapide des zones concernées.
+
+Exemple :
+
+vignette photo zone couverte
+
+vignette photo zone à couvrir
+
+Couleurs possibles :
+
+🟢 zone couverte
+🟠 zone à surveiller
+🔴 zone à couvrir
+
+6 — Widget anniversaire
+
+Ajouter un petit bloc convivial :
+
+🎂 Anniversaire du jour
+
+Contenu :
+
+photo ou avatar
+
+prénom
+
+Exemple :
+
+🎂 Aujourd’hui
+Anniversaire de Marc
+
+Option :
+
+petit bouton discret
+Envoyer un 🎉
+
+Résumé des modifications demandées
+
+Merci de :
+
+Conserver
+
+l’architecture actuelle
+
+les alertes en haut de page (mais en pop-up plus visible)
+
+Ajouter / modifier
+
+barre de progression couverture réseau (sans pourcentage)
+
+indicateur adhésion à la planification avec ligne rouge à 20 %
+
+bloc directions recommandées
+
+visuels statiques des zones couvertes / à couvrir
+
+widget anniversaire
+
+Supprimer
+
+les anciens indicateurs remplacés par ces nouveaux blocs.

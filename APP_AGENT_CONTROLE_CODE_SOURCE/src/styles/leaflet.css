@@ -1,0 +1,25 @@
+/* Leaflet CSS - Version 1.9.4 - CDN fallback to avoid build errors */
+@import url('https://unpkg.com/leaflet@1.9.4/dist/leaflet.css');
+
+/* Fix for marker icons in Leaflet with bundlers */
+.leaflet-container {
+  font-family: inherit;
+}
+
+.leaflet-popup-content-wrapper {
+  border-radius: 8px;
+  box-shadow: 0 3px 14px rgba(0,0,0,0.4);
+}
+
+.leaflet-popup-content {
+  margin: 12px;
+  font-size: 13px;
+}
+
+/* Custom marker styles */
+.custom-team-marker,
+.custom-team-empty-marker,
+.custom-team-global-marker {
+  background: transparent !important;
+  border: none !important;
+}
