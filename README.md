@@ -1,10 +1,10 @@
 # tl - AGENTS DE CONTRÔLE
 
-**RedLine** est un écosystème conçu pour les **tl** (Innovation Crunch Time 2026). Son but : optimiser le déploiement des équipes terrain pour atteindre l'objectif de 0.7% de couverture réseau.
+Il s'agit d'un écosystème conçu pour les **tl** (Innovation Crunch Time 2026). Son but : optimiser le déploiement des équipes terrain pour atteindre l'objectif de 0.7% de couverture réseau.
 
 ## Composants
-* **RedLine Dispatch (Web)** : Pilotage centralisé, planification par IA et gestion RH.
-* **RedLine Companion (Mobile)** : Outil de terrain pour l'agent (consultation planning et alertes).
+* **Dispatch (Web)** : Pilotage centralisé, planification par IA et gestion RH.
+* **Companion (Mobile)** : Outil de terrain pour l'agent (consultation planning et alertes).
 
 ## Points Forts
 * **IA de Planification** : Itinéraires basés sur l'affluence, l'aléatoire et la LTR (pauses garanties).
